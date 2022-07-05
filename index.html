@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Vietnamese Cuisine</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body style="background-color:#2C2B2B; padding-top: 20px;">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+        
+        <div class="container">
+            <header class="row">
+                <div class="col-md-3"><img src="image/pic1banner.png" alt="" width="100%"></div>
+                <div class="col-md-3"><img src="image/pic2banner.png" alt="" width="100%"></div>
+                <div class="col-md-3"><img src="image/pic3banner.png" alt="" width="100%"></div>
+                <div class="col-md-3"><img src="image/pic4banner.png" alt="" width="100%"></div>
+            </header>
+
+            <div class="row box">
+                <a href="" style="background-color:#080808;color: white;"><i class="fas fa-home"></i>index</a>
+                <a href="">About</a>
+                <a href="">Menu</a>
+                <a href="">Health</a>
+                <a href=""><i class="fa-solid fa-envelope"></i> Contact</a>
+
+                <input class="search" type="text" placeholder="  Search" style="width:196px;height:34px;">
+                <button class="search" style="width:70px;height:34px; margin-left: 2px;">Search</button>
+            </div>
+
+            <!-- slide -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="image/slide1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/slide2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/slide3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>            
+            </div>
+              <!-- end slide -->
+                <div class="container">
+                  <div class="row">
+                      <div class="col-md-6"><img src="image/miquang1.jpg" onmouseover="Changepic('miquang')" id="id1" alt="MI QUANG" width="100%"></div>
+                      <div class="col-md-6">
+                        <div class="title center">MI QUANG</div>
+                        <p class="content"> Without a doubt, the most underrated dish in Vietnam is Mi Quang. Mi quang may be available at most restaurants in Vietnam, but it actually originates from Da Nang. Easily distinguished by its yellow-coloured rice noodles, this dish is
+                          a hearty mix of bone broth seasoned with fish sauce, black pepper, shallot, and garlic, as well as meaty ingredients such as river shrimp, boiled quails eggs, and roast pork.</p>
+                        <p class="content"> There is no correct way to cook Mi Quang – it really depends on your tastes and preferences. To most of Danangians, the best Mi Quang is home-made by their mothers or grandmothers, attached with love and memories. Mi Quang brings out the
+                            feeling of genuineness and simplicity just like the people in Central Vietnam, one that is hard to come across in the modern dishes </p>
+                        <button class="center-button">Detail</button>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="title center">SPRING ROLLS</div>
+                      <p>
+                        Another famous Vietnamese food is spring rolls. It’s usually served as an appetizer at restaurants in Vietnam. This healthy food is a smart choice for you when you’ve eaten too much of the fried food in Vietnam. Spring rolls have meat, rice noodles, shrimp
+                        or other seafood and a layer of vegetable. It’s gently rolled with ricepaper. You eat it with fish sauce. It costs 8.000 VND per roll. You will absolutely like it.
+                      </p>
+                      <p>
+                        Fried spring roll was brought to Hanoi from the Southern part of vietnam and this dish has rapidly become a favorite one of Hanoian, and to express the affection as well as to remember the real origin of the dish, people here call it “Nem Sai Gon”.
+                      </p>
+                      <button class="center-button">Detail</button>
+                    </div>
+                     <div class="col-md-6"><img src="image/nem1.jpg" onmouseover="Changepic('nem')" id="id2" alt="SPRING ROLLS" width="100%"></div>
+                </div>
+                </div>    
+        <!-- end container -->       
+        </div>
+              <footer><br><br>
+                <div class="row">
+                <ul class="col-md-6">
+                  <li>Phone : 0814348911</li>
+                  <li>Address:50-82 Bui Vien Street, Pham Ngu Lao Ward, District 1, Ho Chi Minh City</li>
+                  <li>Copyright - Vietnamese Cuisine. All rights reserved</li>
+                </ul>
+                <span class="social col-md-6">
+                  <img src="image/facebook_1.png" alt="">
+                  <img src="image/link_xahoi.png" alt="">
+                  <img src="image/Twiter.png" alt="">
+                </span>
+                </div>
+              </footer>
+    </body>
+</html>
